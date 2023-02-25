@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #182C61;
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+}
+
+.top-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1, a {
+    color: white;
+    font-family: Bungee;
+    text-decoration: none;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header li {
+    display: inline;
+    padding-left: 2rem;
+}
+
+h2, h3 {
+    color: #182C61;
+    font-family: Bungee;
+    font-weight: normal;
+}
+
+section p {
+    color: #182C61;
+    font-family: Roboto;
+}
+
+.sec1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 2rem;
+    margin-top: 1.5rem;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: .5rem;
+}
+
+.container {
+    width: 55%;
+}
+
+input {
+    margin-bottom: .5rem;
+    width: 25rem;
+    height: 2.5rem;
+    padding: 1rem;
+    font-family: Roboto;
+    display: block;
+}
+
+input:focus {
+    outline-color: #182C61;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: .5rem;
+    font-family: Roboto;
+    padding: 1rem;
+    display: block;
+}
+
+textarea:focus {
+    outline-color: #182C61;
+}
+
+button {
+    background-color: #182C61;
+    color: white;
+    font-family: Bungee;
+    padding: .5em 13em;
+    border: solid transparent;
+    margin-bottom: 3rem;
+}
+
+button:hover {
+    background-color: white;
+    color: #182C61;
+    border: solid #182C61;
+    cursor: pointer;
+}
+
+.social img {
+    height: 2rem;
+}
+
+.social li {
+    display: inline;
+    margin-right: .5rem;
+}
+
+.sec2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #182C61;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-family: roboto;
+    color: white;
+    font-size: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
